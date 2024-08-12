@@ -1,0 +1,14 @@
+{
+  "main":"index.js", 
+    "scripts": {
+    "dev": "node index.js",
+    "build": "npm i"
+  },
+  "engines": {
+    "node": "16.15.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
