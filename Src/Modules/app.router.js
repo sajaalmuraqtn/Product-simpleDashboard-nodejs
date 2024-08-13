@@ -3,7 +3,9 @@ import ProductRouter from './Product/product.router.js'
 
 import cors from 'cors'
 import ConnectDB from '../../DB/connection.js';
+import dotenv from 'dotenv';
 
+dotenv.config();
 const initApp=(app,express)=>{
     app.use(express.json());
     app.use(cors())
